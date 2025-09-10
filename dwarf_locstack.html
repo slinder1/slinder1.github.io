@@ -23,7 +23,7 @@ button {
 <body>
 <div class="center">
     <h2>Context:</h2>
-    <div id="context"></div>
+    <pre id="context"></pre>
     <h2>Expression:</h2>
     <textarea id="input" rows="16" cols="80"
         autocapitalize="false" autocomplete="false" autocorrect="false"
@@ -31,7 +31,7 @@ button {
         placeholder="; Expression to evaluate:&#10;(DW_OP_reg 4)&#10;(DW_OP_const 1)&#10;DW_OP_offset&#10;; ..."></textarea>
     <div><button id="eval">Evaluate</button></div>
     <h2>Result:</h2>
-    <div id="output"></div>
+    <pre id="output"></pre>
 </div>
 </body>
 <script defer>
